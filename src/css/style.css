@@ -1,0 +1,26 @@
+html{
+
+}
+body{
+
+}
+.heading{
+    text-align: center;
+    background-color: orangered;
+    color: palegoldenrod;
+    border: 1px solid greenyellow;
+    border-radius: 12px;
+}
+.subheading{
+    margin: 0 auto;
+    background-color: black;
+}
+.content{
+    font-size: 22px;
+}
+.list{
+    margin-left: 75px;
+}
+.list-item{
+    list-style-type:lower-greek;
+}
