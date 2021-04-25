@@ -24,3 +24,9 @@ body{
 .list-item{
     list-style-type:lower-greek;
 }
+.content{
+    color: red;
+}
+.content > h1{
+    font-style: italic;
+}
