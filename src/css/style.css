@@ -1,32 +1,60 @@
-html{
 
-}
 body{
     background-color: lightcyan;
 }
-.heading{
+.container{
     text-align: center;
-    background-color: orangered;
-    color: palegoldenrod;
-    border: 1px solid greenyellow;
-    border-radius: 12px;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 50px;
+    background-color: yellow;
 }
-.subheading{
-    margin: 0 auto;
-    background-color: black;
+.myul > li{
+    display: inline-block;
+    margin-right: 12px;
 }
-.content{
-    font-size: 22px;
+.myul{
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    display: inline-block;
+    padding: 0;
 }
-.list{
-    margin-left: 75px;
-}
-.list-item{
-    list-style-type:lower-greek;
-}
-.content{
+.myul> li> a{
     color: red;
+    font-style: none;
 }
-.content > h1{
-    font-style: italic;
+.myul > li > a:hover{
+    color: black
+}
+.myul > li > a:active{
+    background-color: teal;
+    color: white;
+    
+}
+.myanchor{
+    font-style: none;
+}
+.cst-span{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.cta{
+    text-align: center;
+    width: 100%;
+    background-color: red;
+    height: 200px;
+}
+.inner{
+    padding: 36px;
+    right: 20px;
+}
+.cst-heading{
+    background-color: white;
+    height: 80px;
+    font-size: 25px;
+    margin: 50px 50px;
 }
